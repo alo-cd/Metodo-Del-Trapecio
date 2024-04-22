@@ -1,14 +1,14 @@
-#Integración Numérica con el Método del Trapecio
+##Integración Numérica con el Método del Trapecio
 Este proyecto contiene un script de Python que implementa el método del trapecio para calcular la integral numérica de una función dada en un intervalo específico.
 
-#Descripción
+##Descripción
 El script permite al usuario ingresar la expresión de la función f(x) que desea integrar, así como los valores de a y b que definen el intervalo de integración, y el valor de n que determina el número de tramos a utilizar en el método del trapecio.
 
 Utilizando la librería sympy, el script convierte la expresión ingresada en una función de Python que puede ser evaluada con valores numéricos. Luego, implementa el método del trapecio para calcular la integral numérica de la función en el intervalo especificado.
 
 Finalmente, el script muestra el resultado de la integral calculada y genera una gráfica que visualiza la función, los trapecios utilizados en el cálculo y el área bajo la curva.
 
-#Requisitos
+##Requisitos
 Python 3.x
 Bibliotecas: numpy, matplotlib, sympy
 #Uso
@@ -19,7 +19,7 @@ Copy code
 
 pip install numpy matplotlib sympy
 
-#Ejecuta el script integracion_numerica.py.
+Ejecuta el script integracion_numerica.py.
 Cuando se te solicite, ingresa la expresión de la función f(x) que deseas integrar. Por ejemplo: x**2 + 2*x + 1.
 Ingresa los valores de a y b que definen el intervalo de integración.
 Ingresa el valor de n que determina el número de tramos a utilizar en el método del trapecio.
@@ -35,5 +35,5 @@ np.exp(x)
 np.sqrt(x**2 + 1)
 Puedes combinar diferentes funciones y operaciones para crear expresiones más complejas.
 
-#Contribuciones
+##Contribuciones
 Si encuentras algún error o tienes sugerencias de mejora, no dudes en abrir un issue o enviar un pull request.
